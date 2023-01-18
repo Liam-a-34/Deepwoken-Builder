@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./images/Deepwoken\ title\ page\ edit.PNG");
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+#card {
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#card img{
+    width: 440px;
+}
+
+#card h2{
+    position: absolute;
+    top: 55px;
+    left: 110px;
+    color: rgb(39, 38, 38);
+    font-family: "Volkhov", serif;
+}
+
+#card ul{
+    list-style: none;
+}
+
+#main-stats{
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    font-family: "volkhov", serif;
+    font-weight: bold;
+    color: rgb(39, 38, 38)
+}
+
+#main-stats li{
+    line-height: 25px;
+}
+
+#main-stats-numbs{
+    position: absolute;
+    top: 120px;
+    left: 175px;
+    font-family: "volkhov", serif;
+    font-weight: bold;
+    color: rgb(39, 38, 38) 
+}
+
+#main-stats-numbs li{
+    line-height: 25px;
+}
+#weapon-stats{
+    position: absolute;
+    top: 320px;
+    left: 25px;
+    font-family: "volkhov", serif;
+    font-weight: bold;
+    color: rgb(39, 38, 38) 
+}
+#weapon-stats li{
+    line-height: 25px;
+}
+#weapon-stats-numbs{
+    position: absolute;
+    top: 320px;
+    left: 175px;
+    font-family: "volkhov", serif;
+    font-weight: bold;
+    color: rgb(39, 38, 38)  
+}
+#weapon-stats-numbs li{
+    line-height: 25px;
+}
+
+#mantra-stats{
+    position: absolute;
+    top: 120px;
+    left: 240px;
+    font-family: "volkhov", serif;
+    font-weight: bold;
+    color: rgb(39, 38, 38) 
+}
+
+#mantra-stats li{
+    line-height: 25px;
+}
