@@ -95,3 +95,50 @@ body {
 #mantra-stats li{
     line-height: 25px;
 }
+
+#mantra-stats-numbs{
+    position: absolute;
+    top: 120px;
+    left: 390px;
+    font-family: "volkhov", serif;
+    font-weight: bold;
+    color: rgb(39, 38, 38) 
+}
+
+#mantra-stats-numbs li{
+    line-height: 25px;
+}
+
+#boons{
+    position: absolute;
+    top: 320px;
+    left: 240px;
+    font-family: "Volkhov", serif;
+    font-weight: bold;
+    color: rgb(39, 38, 38) 
+}
+
+#flaws{
+    position: absolute;
+    top: 400px;
+    left: 240px;
+    font-family: "Volkhov", serif;
+    font-weight: bold;
+    color: rgb(39, 38, 38) 
+}
+
+#roll-btn{
+    position: absolute;
+    background-color: rgb(71, 70, 70);
+    font-size: 30px;
+    font-family: "Volkhov",  serif;
+    font-weight: bold;
+    border-radius: 14px;
+    padding: 0 100px;
+    top: 510px;
+    left: 90px;
+}
+
+#roll-btn:hover{
+    cursor: pointer;
+}
