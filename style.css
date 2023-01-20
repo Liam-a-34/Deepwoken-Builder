@@ -160,3 +160,20 @@ body {
 #bingo-btn:hover{
     cursor: pointer
 }
+
+#feedbackBtn{
+    position: absolute;
+    background-image: url("./images/Deepwoken\ texture.PNG");
+    font-size: 30px;
+    font-family: "Volkhov",  serif;
+    font-weight: bold;
+    border-radius: 14px;
+    padding: 0 65px;
+    top: -50px;
+    right: 85px;
+    border: 1px solid rgb(161, 158, 158)
+}
+
+#feedbackBtn:hover{
+    cursor: pointer
+}

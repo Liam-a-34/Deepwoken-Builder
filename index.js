@@ -137,6 +137,24 @@ function genStats(){
         }
     }
 
+    let userEmail = $("#email-box").val()
+    let userText = $("#text-box").val()
+
+    function sendEmail() {
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: `allenliam343@gmail.com`,
+          Password: "liamallen34",
+          To: 'liamallen343@gmail.com',
+          From: `${userEmail}`,
+          Subject: "Feeback",
+          Body: `${userText}`,
+        })
+          .then(function (message) {
+            alert("mail sent successfully")
+          });
+      }
+
     generateBingo()
 
     $("#bingo-btn").on("click", () => {
@@ -159,3 +177,9 @@ function genStats(){
             $(this).addClass("green")
         }
     })
+
+    $("#feedbackBtn").on("click", () => {
+        location.assign("./feedback.html")
+    })
+
+    $("#submitBtn").on("click", sendEmail)

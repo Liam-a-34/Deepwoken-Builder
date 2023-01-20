@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./images/Deepwoken\ title\ page\ edit.PNG");
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#feedback-card{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-image: url("./images/Deepwoken\ texture.PNG");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#feedback-card h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: "Volkhov", serif;
+    background-image: url("./images/Deepwoken\ Beige.PNG");
+    width: 80%;
+    align-self: center;
+    border: 3px solid rgb(124, 122, 122)
+}
+
+#email-box{
+    width: 80%;
+    height: 40px;
+    border-radius: 14px;
+    padding: 5px;
+    font-size: 20px;
+    align-self: center;
+    background-image: url("./images/Deepwoken\ Beige.PNG");
+    border: 4px solid rgb(124, 122, 122)
+}
+
+#text-box{
+    width: 80%;
+    height: 200px;
+    border-radius: 14px;
+    font-size: 18px;
+    padding: 8px;
+    align-self: center;
+    background-image: url("./images/Deepwoken\ Beige.PNG");
+    border: 4px solid rgb(124, 122, 122);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+textarea{
+    resize: none
+}
+
+.back-button{
+    position: absolute;
+    background-image: url("./images/Deepwoken\ texture.PNG");
+    font-size: 30px;
+    font-family: "Volkhov",  serif;
+    font-weight: bold;
+    border-radius: 14px;
+    padding: 0 80px;
+    top: -45px;
+    left: 85px;
+    border: 1px solid rgb(161, 158, 158);
+}
+
+.back-button:hover{
+    cursor: pointer;
+}
+
+#submitBtn{
+    position: absolute;
+    background-image: url("./images/Deepwoken\ texture.PNG");
+    font-size: 30px;
+    font-family: "Volkhov",  serif;
+    font-weight: bold;
+    border-radius: 14px;
+    padding: 0 80px;
+    top: 505px;
+    left: 65px;
+    border: 1px solid rgb(161, 158, 158);
+}
+
+#submitBtn:hover{
+    cursor:pointer;
+}
