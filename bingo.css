@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./images/Deepwoken\ title\ page\ edit.PNG");
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bingoCard{
+    width: 750px;
+    height: 750px;
+    margin-top: 50px
+    
+}
+
+#bingoCard div{
+    width: 100%;
+    height: 100px;
+    padding-top: 5px;
+    background-image: url("./images/Deepwoken\ texture.PNG");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#info{
+    font-size: 20px;
+}
+
+
+#bingoGrid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bingoGrid div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(121, 119, 119);
+    background-image: url("./images/Deepwoken\ Beige.PNG");
+    color: black;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+
+#freeSpace{
+    padding: 0;
+}
+
+#freeSpace p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.back-button{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border-radius: 360px;
+    border: none;
+    background-image: url("./images/Deepwoken\ texture.PNG");
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 125px;
+}
+
+.back-button:hover{
+    cursor: pointer
+}
+
+.rerollBtn {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border-radius: 360px;
+    border: none;
+    background-image: url("./images/Deepwoken\ texture.PNG");
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 425px;
+}
+
+.rerollBtn:hover{
+    cursor: pointer
+}
+
+@media screen and (max-width: 1000px){
+
+    #bingoCard{
+        width: 500px;
+        height: 500px;
+    }
+
+    #bingoGrid div{
+        height: 100px;
+        width: 100px;
+        font-size: 12px
+    }
+
+    #freeSpace p{
+        font-size: 30px
+    }
+
+    .back-button{
+        width: 150px;
+        height: 40px;
+        font-size: 25px;
+        margin-top: 5px;
+        margin-left: 75px;
+    }
+
+    .rerollBtn{
+        width: 150px;
+        height: 40px;
+        font-size: 25px;
+        margin-top: 5px;
+        margin-left: 275px
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    #bingoCard{
+        width: 250px;
+        height: 250px;
+    }
+
+    #bingoCard div{
+        padding-top: 0;
+        font-size: 20px;
+        height: 50px;
+        border: 1px solid black
+    }
+
+    #info{
+        font-size: 10px;
+    }
+
+    #bingoGrid div{
+        width: 50px;
+        height: 50px;
+        padding: 1px;
+        font-size: 3px;
+        margin: 0;
+    }
+
+    #freeSpace p{
+        font-size: 12px;
+    }
+
+    .back-button{
+        width: 100px;
+        height: 25px;
+        font-size: 15px;
+        margin-left: 25px;
+        margin-top: 2px;
+    }
+
+    .rerollBtn{
+        width: 100px;
+        height: 25px;
+        font-size: 15px;
+        margin-left: 125px;
+        margin-top: 2px;
+    }
+}

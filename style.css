@@ -129,16 +129,34 @@ body {
 
 #roll-btn{
     position: absolute;
-    background-color: rgb(71, 70, 70);
+    background-image: url("./images/Deepwoken\ texture.PNG");
     font-size: 30px;
     font-family: "Volkhov",  serif;
     font-weight: bold;
     border-radius: 14px;
-    padding: 0 100px;
+    padding: 0 80px;
     top: 510px;
-    left: 90px;
+    left: 0px;
+    border: 1px solid rgb(161, 158, 158);
 }
 
 #roll-btn:hover{
     cursor: pointer;
+}
+
+#bingo-btn{
+    position: absolute;
+    background-image: url("./images/Deepwoken\ texture.PNG");
+    font-size: 30px;
+    font-family: "Volkhov",  serif;
+    font-weight: bold;
+    border-radius: 14px;
+    padding: 0 65px;
+    top: 510px;
+    right: 0px;
+    border: 1px solid rgb(161, 158, 158)
+}
+
+#bingo-btn:hover{
+    cursor: pointer
 }
