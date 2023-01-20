@@ -186,3 +186,95 @@ body {
 #feedbackBtn:hover{
     cursor: pointer
 }
+
+@media screen and (max-width: 500px){
+    #card img{
+        width: 320px; 
+    }
+    #card h2{
+        font-size: 20px;
+        top: 2px;
+        left: 70px;
+    }
+    #card h3{
+        font-size: 20px;
+        top: 40px;
+        left: 90px
+    }
+    #main-stats{
+        font-size: 12px;
+        top: 90px
+    }
+    #main-stats li{
+        line-height: 18px;
+    }
+    #main-stats-numbs{
+        font-size: 12px;
+        left: 130px;
+        top: 90px
+    }
+    #main-stats-numbs li{
+        line-height: 18px;
+    }
+    #mantra-stats{
+        font-size: 12px;
+        left: 180px;
+        top: 90px;
+    }
+    #mantra-stats li{
+        line-height: 18px;
+    }
+    #mantra-stats-numbs{
+        font-size: 12px;
+        top: 90px;
+        left: 285px
+    }
+    #mantra-stats-numbs li{
+        line-height: 18px;
+    }
+    #weapon-stats{
+        font-size: 12px;
+        top: 235px
+    }
+    #weapon-stats li{
+        line-height: 18px;
+    }
+    #weapon-stats-numbs{
+        font-size: 12px;
+        left: 130px;
+        top: 235px;
+    }
+    #weapon-stats-numbs li{
+        line-height: 18px;
+    }
+    #boons{
+        font-size: 12px;
+        top: 235px;
+        left: 180px;
+    }
+    #flaws{
+        font-size: 12px;
+        top: 280px;
+        left: 180px
+    }
+    #roll-btn{
+        padding: 0 40px;
+        top: 372px;
+        font-size: 25px;
+        border-radius: 12px
+    }
+    #bingo-btn{
+        padding: 0 25px;
+        top: 372px;
+        font-size: 25px;
+        border-radius: 12px;
+    }
+    #feedbackBtn{
+        font-size: 25px;
+        border-radius: 12px;
+        top: -40px;
+        padding: 0 40px;
+        text-align: center;
+        right: 65px;
+    }
+}
